@@ -22,7 +22,7 @@ def web_search(query: str) -> str:
     )
   return "\n".join(out)
 
-print(web_search.invoke("What is the latest news on SCO and its impact on global trade?"))
+# print(web_search.invoke("What is the latest news on SCO and its impact on global trade?"))
 
 
 @tool
